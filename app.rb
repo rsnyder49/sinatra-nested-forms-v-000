@@ -13,8 +13,10 @@ module FormsLab
     end 
     
     post '/pirates' do 
+      @pirate = Pirate.new()
       
       erb :"pirates/show"
+    end
       
     
     
